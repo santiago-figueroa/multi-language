@@ -1,0 +1,14 @@
+{
+    "es":{
+        "hello":"hola",
+        "greeting-text": "esta es una implementacion de varios idiomas usando js, html y tailwindcss"
+    },
+    "en":{
+        "hello":"hello",
+        "greeting-text": "this is a multi language implementation using js, html and tailwindcss"
+    },
+    "fr":{
+        "hello":"bonjour",
+        "greeting-text": "c'est une implémentation multilingue utilisant js, html et tailwindcss"
+    }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css"></style>
+</head>
+<body class="bg-gray-100 p-10">
+    <div class="flex flex-col justify-between h-full gap-10">
+        <div class="card">
+            <div class="card-header">
+                <h1 name="i18text" i18-text="hello" class="text-3xl first-letter:capitalize"></h1>
+            </div>
+            <div class="card-body">
+                <p name="i18text" i18-text="greeting-text" class="first-letter:capitalize"></p>
+            </div>
+            <div class="card-footer">
+                <div class="grid grid-cols-3 gap-4 place-items-stretch">
+                    <button name="lang-btn" value="es" class="bg-blue-300 hover:bg-blue-400">español</button>
+                    <button name="lang-btn" value="en" class="bg-blue-300 hover:bg-blue-400">inglés</button>
+                    <button name="lang-btn" value="fr" class="bg-blue-300 hover:bg-blue-400">francés</button>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-3 gap-4 w-full">
+            <div class="card">
+                <div class="card-header uppercase text-center">html</div>
+                <div class="card-body">
+                    <div id="html-code" class="bg-black text-white text-sm rounded-md border-2 p-2 overflow-auto"><pre></pre></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header uppercase text-center">js</div>
+                <div class="card-body">
+                    <div id="js-code" class="bg-black text-white text-sm rounded-md border-2 p-2 overflow-auto"><pre></pre></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header uppercase text-center">json</div>
+                <div class="card-body">
+                    <div id="json-code" class="bg-black text-white text-sm rounded-md border-2 p-2 overflow-auto"><pre></pre></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
